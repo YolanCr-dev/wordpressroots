@@ -4,10 +4,9 @@
   <body <?php body_class() ?>>
     <?php do_action('get_header') ?>
     <?php echo $__env->make('partials.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-    <div class="wrap container" role="document">
+    <div class="wrap" role="document">
       <div class="content">
         <main class="main">
-          <h2>YUSSSSSS</h2>
           <?php echo $__env->yieldContent('content'); ?>
         </main>
         <?php if(App\display_sidebar()): ?>

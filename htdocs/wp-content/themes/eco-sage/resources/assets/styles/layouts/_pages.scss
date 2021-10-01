@@ -1,0 +1,115 @@
+//Home
+.page-home {
+  section.hero {
+    height: 100vh;
+    background-image: url(http://wordpressroots.local/wp-content/uploads/2021/09/homebg1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 4em;
+      text-align: center;
+      color: theme-color("primary");
+      margin-bottom: 40px;
+      max-width: 800px;
+    }
+
+    #link-about_biodiversity {
+      padding: 0;
+      padding-top: 24px;
+    }
+  }
+
+  section.highlighted_products {
+    .highlighted_products-wrapper {
+    }
+    .card-highlighted_product {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 400px;
+      width: 33%;
+      background-color: cadetblue;
+      color: white;
+    }
+  }
+}
+
+.page-partners {
+  .partners-hero {
+    height: 312px;
+    background: theme-color("primary");
+    background: linear-gradient(
+        to right,
+        rgba(theme-color("primary"), 0.4),
+        rgba(lighten(theme-color("primary"), 25%), 0.4)
+      ),
+      url(http://wordpressroots.local/wp-content/uploads/2021/09/pexels-pixabay-461049.jpg)
+        no-repeat top center;
+    background-size: cover;
+    background-position: center;
+
+    .container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      color: white;
+    }
+  }
+
+  .partners-wrapper .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card-partner-wrapper {
+    padding: 16px;
+    padding-top: 0;
+    width: 33%;
+  }
+
+  .card-partner {
+    .card-img {
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+      }
+    }
+
+    .card-body {
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+
+      &-action {
+        margin-top: 16px;
+
+        .btn {
+          width: 100%;
+          padding: 16px 32px;
+        }
+      }
+    }
+  }
+}

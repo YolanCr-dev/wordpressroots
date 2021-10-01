@@ -26,7 +26,7 @@ define( 'DB_NAME', 'wordpressroots' );
 define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'GN78GNWe!' );
+define( 'DB_PASSWORD', 'MYSQL-gateway!01' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -80,6 +80,8 @@ $table_prefix = 'wordpressroots_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', true );
+
+define('FS_METHOD','direct');
 
 /* Add any custom values between this line and the "stop editing" line. */
 

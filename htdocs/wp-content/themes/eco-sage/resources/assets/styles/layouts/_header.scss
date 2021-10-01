@@ -1,3 +1,10 @@
+.banner {
+  // position: fixed;
+  background: rgba(#fff, 0.75);
+  width: 100%;
+  padding: 24px 0;
+}
+
 .banner .nav li {
   @extend .nav-item;
 }

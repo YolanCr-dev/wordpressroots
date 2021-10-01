@@ -3,6 +3,10 @@
   background: rgba(#fff, 0.75);
   width: 100%;
   padding: 24px 0;
+
+  .site_logo img {
+    max-height: 64px;
+  }
 }
 
 .banner .nav li {
@@ -11,4 +15,27 @@
 
 .banner .nav a {
   @extend .nav-link;
+}
+
+.nav-primary {
+  display: flex;
+
+  .nav-left {
+    width: 50%;
+  }
+  .nav-right {
+    width: 50%;
+
+    ul {
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      li {
+        padding: 8px 24px;
+      }
+    }
+  }
 }

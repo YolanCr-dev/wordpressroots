@@ -21,7 +21,6 @@
 
             <div class="highlighted_products-wrapper">
 
-
                 @foreach ($wcproducts as $wcproduct)
 
                 <a href="{{ $wcproduct->get_permalink()}}" class="card-highlighted_product-wrapper">
@@ -39,8 +38,8 @@
     <section class="section about_biodiversity" id="about_biodiversity">
         <div class="container">
             <hgroup>
-                <h2>About Biodiversity</h2>
-                <p>Biodiversity is important to humans for many reasons. Biodiversity is also considered by many to have intrinsic value—that is, each species has a value and a right to exist, whether or not it is known to have value to humans. The biodiversity book by the Commonwealth Scientific and Industrial Research Organisation</p>
+                <h2>Why biodiversity is important</h2>
+                <p>Biodiversity is important to humans for many reasons. Biodiversity is also considered by many to have intrinsic value—that is, each species has a value and a right to exist, whether or not it is known to have value to humans.</p>
             </hgroup>
 
             <article>
